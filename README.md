@@ -3,11 +3,17 @@
 
 Simple wrapper for Dropbox Paper web app.
 
+## Building
+
+```bash
+npm run build
+```
+
 ## Development
 
 Using [Nativefier](https://www.npmjs.com/package/nativefier) to do the conversion. See build options at [their API documentation](https://github.com/jiahaog/nativefier/blob/development/docs/api.md) to change the settings.
 
-Basic build command:
+Other build commands, go wild:
 
 ```bash
 "nativefier --min-width 860 --min-height 400 --ignore-certificate --inject \"./inject/local.js\" --inject \"./inject/local.css\" --name \"Dropbox Paper\" --user-agent \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36\" \"https://paper.dropbox.com/\" \"build\""
