@@ -1,0 +1,59 @@
+
+/*This file will be injected in the web view so you can hack things*/
+
+
+
+/*Draggable regions*/
+
+.hp-sidebar-container,
+.hp-header {
+	-webkit-app-region: drag;
+}
+
+.hp-sidebar-container a,
+.hp-sidebar-container button,
+.hp-header a,
+.hp-header button {
+	-webkit-app-region: no-drag;
+}
+
+
+
+/*Sidebar*/
+
+/*Remove Dropbox home button*/
+.maestro-nav__home-button {
+	display: none !important;
+}
+
+
+
+/*Window controls*/
+
+/*Nudge some elements out of the way*/
+/*.header-pad-title-and-folder {
+	padding-left: 20px !important;
+}*/
+
+/*
+.native-frame-controls {
+	position: fixed;
+	left: 10px;
+	top: 5px;
+}
+
+.native-frame-controls-close,
+.native-frame-controls-minify,
+.native-frame-controls-maximize {
+	width: 10px;
+	height: 10px;
+	float: left;
+
+	border-radius: 5px;
+	background-color: grey;
+}
+
+.native-frame-controls-close,
+.native-frame-controls-minify {
+	margin-right: 5px;
+}*/
