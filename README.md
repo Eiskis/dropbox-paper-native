@@ -5,7 +5,7 @@ Simple wrapper for Dropbox Paper web app.
 
 ## Download
 
-[Download link]https://dl.dropboxusercontent.com/u/22985949/Dropbox%20Paper.app.zip) <-- 😇
+[Download link](https://dl.dropboxusercontent.com/u/22985949/Dropbox%20Paper.app.zip) <-- 😇
 
 ## Building
 
